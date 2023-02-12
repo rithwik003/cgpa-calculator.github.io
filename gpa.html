@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSS9LPS0K6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SSS9LPS0K6');
+        </script>
+        <title>GPA Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This website will helps you to find out your GPA by just entering your course grade and credits.">
+        <meta name="keywords" content="Vit chennai gpa,gpa calculator,GPA,VIT GPA,gpa finder,VIT vellore gpa,Rithwik gpa calculator,CGPA calculator,rithwik003,rithwik amaraneni">
+        <meta name="author" content="Rithwik">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5677388980983709"
+     crossorigin="anonymous"></script>
+        <style>
+            .bag{
+                background-color:rgb(177, 89, 236);
+                color: aliceblue;
+                text-align: center;
+            }
+            .butto{
+                cursor: pointer;
+            }
+            .butto:hover,.button:active{
+                background-color:rgb(255, 253, 253);
+                color:rgb(0, 0, 0);
+            }
+            .a2{
+                background-color: rgb(100, 245, 197);
+                color: black;
+                text-align: center;
+                font-size: 30px;
+            }
+            
+            .z1{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z2{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z3{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z4{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z5{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z6{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z7{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z8{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z9{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z10{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z11{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .z12{
+                border-style: double;
+                border-width: 5px;
+                border-radius:8px;
+            }
+            .submit{
+                background-color:rgb(239, 87, 147);
+                color: black;
+                font-size: 25px;
+                border-radius: 5px;
+                text-align: center;
+                cursor:pointer;
+                margin-left: 48%;
+            }
+            .submit:hover,.submit:active{
+                background-color: aliceblue;
+                color:rgb(31, 128, 132)
+            }
+            .fin{
+                border-style: groove;
+                border-color: rgb(129, 244, 234);
+                border-width: 10px;
+                text-align:center;
+                background-color: rgb(241, 205, 163);
+                color: rgb(3, 34, 57);
+                font-size: 25px;
+                
+            }
+            .contact{
+                text-align: center;
+                background-color:rgb(160, 154, 154);
+            }
+            
+        </style>
+         <link type="image/png" sizes="16x16" rel="icon" href="icons8-book-16 (1).png">
+    </head>
+    <body>
+        <div class="bag">
+            <br>
+            <h1><u>GPA Calculator</u></h1>
+            <a class="but2" href="index.html"><button class="butto" style=" width:200Px; background-color: rgb(255, 255, 255); color:rgb(0, 0, 0); border-radius: 5px; text-align:center; margin-left: auto; margin-right:auto; font-size:20px;">CGPA Calculator</button></a>
+            <br>
+            <hr>
+        </div>
+        <div class="a1">
+            
+                <div class="a2">
+                    <br>
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-1</u></strong></p>
+                    
+                    <div class="z1">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b1" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px" >
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        <select id="b2" name="credit"style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-2</u></strong></p>
+                    
+                    <div class="z2">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b3" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b4" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-3</u></strong></p>
+                    
+                    <div class="z3">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b5" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b6" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-4</u></strong></p>
+                    
+                    <div class="z4">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b7" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b8" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-5</u></strong></p>
+                    
+                    <div class="z5">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b9" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b10" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-6</u></strong></p>
+                    
+                    <div class="z6">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b11" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b12" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-7</u></strong></p>
+                    
+                    <div class="z7">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b13" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b14" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-8</u></strong></p>
+                    
+                    <div class="z8">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b15" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b16" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-9</u></strong></p>
+                    
+                    <div class="z9">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b17" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b18" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-10</u></strong></p>
+                    
+                    <div class="z10">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b19" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b20" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-11</u></strong></p>
+                    
+                    <div class="z11">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b21" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b22" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+
+                    <p style="font-size: 20px; color: rgb(76, 2, 95);"><strong><u>Course-12</u></strong></p>
+                    
+                    <div class="z12">
+                        <label>Grade</label>
+                        &nbsp;
+                        <select id="b23" name="grade" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Grade--</option>   
+                            <option value="10">S</option>
+                            <option value="9">A</option>
+                            <option value="8">B</option>
+                            <option value="7">C</option>
+                            <option value="6">D</option>
+                            <option value="5">E</option>
+                            <option value="0">F</option>
+                            <option value="0">N</option>
+                        </select>
+                    
+                    
+                        <br>
+                        <br>
+                    
+                        <label>Credits &nbsp;</label>
+                        
+                        <select id="b24" name="credits" style="background-color:rgba(237, 191, 221, 0.785); padding:6px">
+                            <option value="0">--Credits--</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <br>
+                </div>
+                <div><br><br></div>
+                
+                <input type="submit" onclick="getOption()" name="submit" class="submit">
+                <div><br></div>
+                <p class="fin">Your GPA:&nbsp;<span class="output"></span></p>
+            <script type="text/javascript">
+
+                function getOption() {
+                    let cred=0;
+                    selectElement = document.querySelector('#b1');
+                    let c1 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b2');
+                    let c2 = selectElement.options[selectElement.selectedIndex].value;
+                    let e1=(c2);
+                    let d1=(c1*c2);
+
+                    selectElement = document.querySelector('#b3');
+                    let c3 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b4');
+                    let c4 = selectElement.options[selectElement.selectedIndex].value;
+                    let e2=(c4);
+                    let d2=(c3*c4);
+
+                    selectElement = document.querySelector('#b5');
+                    let c5 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b6');
+                    let c6 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d3=(c5*c6);
+
+                    selectElement = document.querySelector('#b7');
+                    let c7 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b8');
+                    let c8 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d4=(c7*c8);
+
+                    selectElement = document.querySelector('#b9');
+                    let c9 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b10');
+                    let c10 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d5=(c9*c10);
+
+                    selectElement = document.querySelector('#b11');
+                    let c11 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b12');
+                    let c12 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d6=(c11*c12);
+
+                    selectElement = document.querySelector('#b13');
+                    let c13 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b14');
+                    let c14 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d7=(c13*c14);
+
+                    selectElement = document.querySelector('#b15');
+                    let c15 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b16');
+                    let c16 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d8=(c15*c16);
+
+                    selectElement = document.querySelector('#b17');
+                    let c17 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b18');
+                    let c18 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d9=(c17*c18);
+
+                    selectElement = document.querySelector('#b19');
+                    let c19 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b20');
+                    let c20 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d10=(c19*c20);
+                    
+                    selectElement = document.querySelector('#b21');
+                    let c21 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b22');
+                    let c22 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d11=(c21*c22);
+
+                    selectElement = document.querySelector('#b23');
+                    let c23 = selectElement.options[selectElement.selectedIndex].value;
+                    selectElement = document.querySelector('#b24');
+                    let c24 = selectElement.options[selectElement.selectedIndex].value;
+                    
+                    let d12=(c23*c24);
+
+                    let tot=(d1+d2+d3+d4+d5+d6+d7+d8+d9+d10+d11+d12)/(parseFloat(c2)+parseFloat(c4)+parseFloat(c6)+parseFloat(c8)+parseFloat(c10)+parseFloat(c12)+parseFloat(c14)+parseFloat(c16)+parseFloat(c18)+parseFloat(c20)+parseFloat(c22)+parseFloat(c24));
+                    
+                    document.querySelector('.output').textContent =tot.toFixed(2);
+                }
+            </script>
+            
+        </div>
+        <br>
+
+        <footer class="contact">
+            <br>
+            <p style="color:rgb(255, 255, 255);font-size:25px"><b><u>Contact</b></u></p>
+            <a style="background-color:transparent; "href="mailto:amaraneni.rithwik@gmail.com" target="_blank"><img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png"  alt="Mail" style="width:45px;height:30px;" ></img> </a>
+            &nbsp;
+            &nbsp;
+            <a style="background-color:transparent;" href="https://www.linkedin.com/in/rithwik-amaraneni-6096b5217/" target="_blank"><img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="LinkedIn" style="width:30px;height:30px;"> </img></a>
+            <div><br></div>
+            &copy; <span id="thisYear"></span> <a href="https://github.com/rithwik003" style="color:rgb(0, 0, 0);">Rithwik Amaraneni</a>. All Rights Reserved. 
+            <div><br></div>
+        </footer>
+        <script>
+            var a = new Date();
+            document.getElementById('thisYear').innerHTML = a.getFullYear();
+        </script>
+        
+    </body>
+</html>
